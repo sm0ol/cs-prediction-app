@@ -43,7 +43,7 @@ app.put('/:id', async (req, res) => {
 })
 
 app.get('/team/:id', async (req, res) => {
-    let team = await getTeamById(5005)
+    let team = await getTeamById(req.params.id);
     res.send(team);
 })
 

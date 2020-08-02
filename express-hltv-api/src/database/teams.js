@@ -38,7 +38,6 @@ async function updateTeam(id, team) {
 }
 
 async function getTeamById(id) {
-    const database = await getDatabase();
     const {name, recentResults} = await HLTV.getTeam({id: id});
     return {name, recentResults};
 }
