@@ -48,7 +48,6 @@ app.get('/team/:id', async (req, res) => {
 })
 
 startDatabase().then(async () => {
-    await insertTeam({name: 'Complexity'});
     app.listen(3001, () => {
         console.log("Listening on port 3001");
     })
