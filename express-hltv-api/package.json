@@ -17,6 +17,7 @@
     "hltv": "^2.20.0",
     "mongodb": "^3.6.0",
     "mongodb-memory-server": "^6.6.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "styled-components": "^5.1.1"
   }
 }
